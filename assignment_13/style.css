@@ -1,0 +1,78 @@
+
+body{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+.calculators{
+    width: 250px;
+    height: 460px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px rgb(148, 103, 232);
+    background-color: rgb(61, 56, 69);
+    overflow: hidden;
+}
+input{
+    box-shadow:  inset 12px 12px 30px black ;
+    margin: 10px;
+    width: 90%;
+    height: 100px;
+    border-radius: 10px;
+    pointer-events: none;
+    text-align: right;
+    background-color: lightslategray;
+
+}
+.buttons{
+    flex: 0 0 22%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding: 12px;
+}
+.btn{
+    margin: 12px 3px;
+    border: 1px solid rgb(238, 232, 232);
+    border-radius: 10px;
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+.difs{
+    margin: 12px 3px;
+    border: 1px solid rgb(238, 232, 232);
+    border-radius: 10px;
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.btn-grey{
+    background-color: rgb(163, 137, 230);
+}
+.btn-grey:hover{
+    background-color: white;
+}
+.btn-1{
+    width: 90px;
+    padding-bottom: 15px;
+}
+.btn-delete{
+    background-color:#ff1a1a;
+    width: 205px;
+    padding: 10px auto;
+    margin: 10px;
+    margin: 10px;
+    border: 1px solid #ff1a1a;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+.btn-delete:hover{
+    background-color: white;
+}
